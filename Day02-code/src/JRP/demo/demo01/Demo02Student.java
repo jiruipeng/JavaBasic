@@ -8,12 +8,12 @@ import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 1，导包：
 也就是指出需要使用的类，在什么位置。
-import 包名称.类名称；import cn.itcast.daye6.demoe1.Student；
+import 包名称.类名称；import JRP.Demo.Student；
 对于和当前类属于同一个包的情况，可以省略导包语句不写。
 
 2.创建，
 格式：
-类名称对象名= new类名称（）；
+类名称 对象名= new类名称（）；
 Student stu = new Student（）；
 
 3.使用，分为两种情况：
